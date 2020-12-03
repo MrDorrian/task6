@@ -98,9 +98,10 @@
 
 .circle_1,
 .circle_2 {
+  --circle-size: 12em;
   background-color: var(--color-white);
-  width: 12em;
-  height: 12em;
+  width: var(--circle-size);
+  height: var(--circle-size);
   border-radius: 50%;
   position: absolute;
   opacity: 0.2;
@@ -108,10 +109,10 @@
 
 .circle_1 {
   left: 17.5em;
-  top: 0;
+  top: -1em;
 }
 
 .circle_2 {
   left: 13em;
-  top: 9em;
+  top: 8em;
 }
